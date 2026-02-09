@@ -1,4 +1,5 @@
-## 🛠 Proje 1: Dinamik Bellek Yönetimli Dizi (Vector)
+## dinamik_dizi.c:
+Dinamik Bellek Yönetimli Dizi (Vector)
 
 ### Proje Hakkında
 C dilinde diziler varsayılan olarak sabit boyutludur. Bu projede, Python'daki `list` veya C++'taki `std::vector` yapısına benzer, çalışma zamanında (runtime) kapasitesini otomatik olarak artıran bir dinamik dizi yapısı geliştirilmiştir.
