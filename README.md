@@ -1,4 +1,4 @@
-* # dinamik_dizi.c: Dinamik Bellek Yönetimli Dizi (Vector)
+# dinamik_dizi.c: Dinamik Bellek Yönetimli Dizi (Vector)
 ### Proje Hakkında
 C dilinde diziler varsayılan olarak sabit boyutludur. Bu projede, Python'daki `list` veya C++'taki `std::vector` yapısına benzer, çalışma zamanında (runtime) kapasitesini otomatik olarak artıran bir dinamik dizi yapısı geliştirilmiştir.
 
@@ -10,7 +10,7 @@ C dilinde diziler varsayılan olarak sabit boyutludur. Bu projede, Python'daki `
 
 
 
-* # sezar_sifreleme.c: Sezar Şifreleme Tabanlı Dosya Güvenlik Aracı
+# sezar_sifreleme.c: Sezar Şifreleme Tabanlı Dosya Güvenlik Aracı
 ### Proje Hakkında
 Bu araç, yerel metin dosyalarını (txt) basit bir kriptografik yöntemle şifrelemek veya şifresini çözmek için geliştirilmiştir. C dilinde dosya sistemleri (File I/O) ve karakter manipülasyonu yetkinliklerini kanıtlar.
 
@@ -18,6 +18,15 @@ Bu araç, yerel metin dosyalarını (txt) basit bir kriptografik yöntemle şifr
 * **Dosya Okuma/Yazma:** `fopen`, `fgetc` ve `fputc` fonksiyonları ile dosya akışı kontrolü.
 * **ASCII Manipülasyonu:** Karakterlerin sayısal değerleri üzerinden kaydırma işlemi.
 * **Kullanıcı Etkileşimi:** Kullanıcının çalışma anında (runtime) işlem seçebilmesi.
+
+# sistem_araci.c: Sistem ve Süreç İzleme Aracı
+### Proje Hakkında
+Bu proje, C dilinin işletim sistemi komutlarıyla nasıl etkileşime girdiğini göstermek amacıyla geliştirilmiştir. `system()` çağrıları kullanarak donanım ve ağ bilgilerini kullanıcıya sunar.
+
+### Temel Özellikler
+* **Cross-Platform Desteği:** `#ifdef` blokları sayesinde hem Windows hem de Linux tabanlı sistemlerde çalışabilir.
+* **Sistem Analizi:** İşletim sistemi versiyonu ve kernel bilgilerini çeker.
+* **Ağ Teşhisi:** Temel ICMP (Ping) protokolünü kullanarak ağ durumunu kontrol eder.
 
 ## Nasıl Çalıştırılır?
 
